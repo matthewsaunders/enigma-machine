@@ -1,0 +1,21 @@
+.Plugboard {
+
+}
+
+.Plugboard__row {
+  display: flex;
+  justify-content: center;
+}
+
+.Plugboard__letter {
+  display: block;
+  border: 2px solid black;
+  margin: 1.0rem;
+  padding: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+.Plugboard__letter:hover {
+  cursor: pointer;
+}

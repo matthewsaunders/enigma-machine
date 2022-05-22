@@ -1,0 +1,10 @@
+.Rotors {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.Rotor {
+  margin: 1rem;
+}

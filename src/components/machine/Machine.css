@@ -1,0 +1,26 @@
+.Machine {
+  border: 2px solid black;
+  background-color: var(--colors-machine-body);
+  width: 800px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Machine__rotors {
+  border: 2px solid black;
+}
+
+.Machine__lightboard {
+  border: 2px solid black;
+}
+
+.Machine__keyboard {
+  border: 2px solid black;
+}
+
+.Machine__plugboard {
+  border: 2px solid black;
+}
+
+

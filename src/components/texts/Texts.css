@@ -1,0 +1,14 @@
+.Texts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+}
+
+.Texts__content {
+  border: 2px solid black;
+  text-align: left;
+  height: 300px;
+  width: 100%;
+  resize: none;
+}

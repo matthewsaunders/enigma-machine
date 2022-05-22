@@ -1,0 +1,21 @@
+.Lightboard {
+}
+
+.Lightboard__row {
+  display: flex;
+  justify-content: center;
+}
+
+.Lightboard__letter {
+  border: 2px solid black;
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--colors-light-out);
+}
+
+.Lightboard__letter--selected {
+  background-color: var(--colors-light-lit);
+}
